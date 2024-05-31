@@ -3,7 +3,7 @@ import './Name.css';
 
 export default function HeaderComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
