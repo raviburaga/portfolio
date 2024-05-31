@@ -1,0 +1,14 @@
+.animated-text {
+    display: inline-block;
+    animation: text-fade 1.5s infinite alternate;
+  }
+  
+  @keyframes text-fade {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

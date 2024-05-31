@@ -1,0 +1,25 @@
+/* Projects.css */
+
+.project-card {
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+    overflow: hidden; /* Hide overflow to remove border */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.02); /* Scale the card on hover */
+  }
+  
+  .project-image {
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  }
+  
+  .project-card:hover .project-image {
+    transform: scale(1.02); /* Scale the image on hover */
+  }
+  
+  /* Reduce the size of project cards */
+  .project-card {
+    width: 90%; /* Adjust width as needed */
+    margin: auto; /* Center align */
+  }
+  
